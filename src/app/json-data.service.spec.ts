@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { AdventureTimeService } from './adventure-time.service';
+import { JsonDataService } from './json-data.service';
 
-describe('AdventureTimeService', () => {
+describe('JsonDataService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: AdventureTimeService = TestBed.get(AdventureTimeService);
+    const service: JsonDataService = TestBed.get(JsonDataService);
     expect(service).toBeTruthy();
   });
 });
